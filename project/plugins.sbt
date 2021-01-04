@@ -1,7 +1,7 @@
 scalacOptions ++= Seq("-unchecked", "-feature", "-deprecation",
   "-Xlint:-unused,_", "-Xfatal-warnings")
 
-libraryDependencies += "org.apache.commons" % "commons-lang3" % "3.3.2"
+libraryDependencies += "org.apache.commons" % "commons-lang3" % "3.11"
 
 libraryDependencies += "biz.aQute.bnd" % "biz.aQute.bnd" % "2.4.1"
 

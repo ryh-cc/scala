@@ -31,7 +31,7 @@ Global / concurrentRestrictions := Seq(
 
 addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.3.3")
 
-addSbtPlugin("de.heikoseeberger" % "sbt-header" % "5.0.0")
+addSbtPlugin("de.heikoseeberger" % "sbt-header" % "5.6.0")
 
 // See DottySupport.scala
 if (Option(System.getProperty("scala.build.compileWithDotty")).map(_.toBoolean).getOrElse(false))
